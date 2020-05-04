@@ -1,1 +1,43 @@
+#EXTM3U
 
+#T2 UA Free
+
+#01 Интер
+#EXTINF:-1 tvg-id="inter-ua" tvg-name="Iнтер" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/0n7Bk5s.png" group-title="",Iнтер
+http://109.68.41.148:1935/live/inter_3/playlist.m3u8
+
+#02 Украина
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="",UA TV HD
+http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
+
+#03 1+1
+#EXTINF:-1,1+1 HD
+http://185.189.184.8:8888/1plus1hd/index.m3u8?token=test
+
+#00 Индиго
+#EXTINF:-1,Индиго
+http://193.33.39.107:8088/indigo/index.m3u8
+
+#00 СТБ HD
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ
+http://s01.iptvx.tv:8090/s/0d1e1d971b4761ed10aeebb9aab36d0a/stb.m3u8
+
+#05 K1
+#EXTINF:-1 tvg-id="k1-ua" tvg-name="К1" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/zkGPS5w.jpg" group-title="",K1
+http://109.68.40.67:80/life/k1_3/index.m3u8
+
+#29 112 Украина [FHD]
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="",112 Украина [FHD]
+http://112hd-hls3.cosmonova.net.ua/hls/112hd_ua_hi/index.m3u8
+#http://app.live.112.events/hls-ua/112hd_hi/index.m3u8
+
+#T2 RU Free
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",RU TV HD
+http://rutv.gcdn.co/streams/1410_1272/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",Кино UHD
+http://188.35.9.26:16050/udp/238.0.16.1:69000
+
+#EXTINF:-1 tvg-id="mir-premium" tvg-name="Мир Premium" tvg-language="Russian" tvg-logo="" group-title="Entertainment",Мир Premium
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
