@@ -1,5 +1,3 @@
 #EXTM3U
-#T2 UA Free
-#01 Интер
 #EXTINF:-1 tvg-id="inter-ua" tvg-name="Iнтер" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/0n7Bk5s.png" group-title="",Iнтер
 http://109.68.41.148:1935/live/inter_3/playlist.m3u8
