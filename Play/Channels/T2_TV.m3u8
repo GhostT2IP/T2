@@ -11,33 +11,111 @@ http://109.68.41.148:1935/live/inter_3/playlist.m3u8
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
 
 #03 1+1
-#EXTINF:-1,1+1 HD
-http://185.189.184.8:8888/1plus1hd/index.m3u8?token=test
+#EXTINF:-1,1+1
+http://188.35.9.26:1050/udp/238.0.1.1:69000
+#http://185.189.184.8:8888 - Bad
 
-#00 Индиго
-#EXTINF:-1,Индиго
-http://193.33.39.107:8088/indigo/index.m3u8
-
-#00 СТБ HD
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ
-http://s01.iptvx.tv:8090/s/0d1e1d971b4761ed10aeebb9aab36d0a/stb.m3u8
+#04 НТН
+#EXTINF:-1 ,НТН
+http://109.68.41.148:1935/live/ntn_2/playlist.m3u8
 
 #05 K1
 #EXTINF:-1 tvg-id="k1-ua" tvg-name="К1" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/zkGPS5w.jpg" group-title="",K1
 http://109.68.40.67:80/life/k1_3/index.m3u8
+
+#08 ZOOM
+#EXTINF:-1,ZOOM
+http://78.129.228.178/iptv/C2Z32RF22ZTV53/1000/index.m3u8
+
+#09 Индиго
+#EXTINF:-1,Индиго
+http://193.33.39.107:8088/indigo/index.m3u8
+
+#10 СТБ
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ
+http://s01.iptvx.tv:8090/s/0d1e1d971b4761ed10aeebb9aab36d0a/stb.m3u8
+
+#00 КРТ
+#EXTINF:-1,КРТ
+http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
+
+#0 М1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Music",М1
+https://flavors-proxy.m1.tv//flavors/1/1080/stream.m3u8
+
+#0 М2
+#EXTINF:-1 ,М2
+http://live.m2.tv/hls3/stream.m3u8
+
+#EXTINF:-1,ictv
+http://188.35.9.26:2051/udp/238.0.2.1:69000
+
+#EXTINF:-1,Мега
+http://78.129.228.178/iptv/C2Z32RF22ZTV53/929/index.m3u8
+#http://185.189.184.7:8888/Mega/index.m3u8?token=test
+
+
+#EXTINF:-1,2+2
+http://212.115.229.81:1935/out/9tv_fb/playlist.m3u8
 
 #29 112 Украина [FHD]
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="",112 Украина [FHD]
 http://112hd-hls3.cosmonova.net.ua/hls/112hd_ua_hi/index.m3u8
 #http://app.live.112.events/hls-ua/112hd_hi/index.m3u8
 
+#EXTINF:-1,Espreso
+http://api.tv.ipnet.ua/api/v1/manifest/2007567821.m3u8
+
+#EXTINF:-1,KPT
+http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
+
+#Днепр
+#EXTINF:-1 tvg-id="11kanal" tvg-name="11 канал Днепр" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/R3MO4vb.png" group-title="",11 канал (Днепр)
+http://212.3.106.230/hls-live/live/_definst_/liveevent/livestream.m3u8
+
+#34
+#EXTINF:-1,34
+http://streamvideol.luxnet.ua/34ua/34ua.stream/playlist.m3u8
+
+#Free UA
+
+#00 Сонце
+#EXTINF:-1 tvg-id="sonce-ua" tvg-name="Сонце" tvg-language="Ukrainian" tvg-logo="" group-title="",Сонце
+http://api.tv.ipnet.ua/api/v1/manifest/709640461.m3u8?codec=mpeg4
+
+#00 Iнший
+#EXTINF:-1 tvg-id="newsone-ua" tvg-name="Iнший" tvg-language="Ukrainian" tvg-logo="" group-title="",Iнший
+http://cdn1.live-tv.od.ua:8081/ktkod/ktkod-abr/ktkod/ktkod/playlist.m3u8
+
+#EXTINF:-1,OTV
+http://212.26.146.148/hls/otv.m3u8
+
 #T2 RU Free
 
+#EXTINF:-1,Первый канал HD
+http://nsk9.peers.tv/streaming/1kanal_hd/16/h1080/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",RU TV HD
-http://rutv.gcdn.co/streams/1410_1272/playlist.m3u8
+http://rutv.gcdn.co/streams/1410_95/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",Кино UHD
 http://188.35.9.26:16050/udp/238.0.16.1:69000
 
 #EXTINF:-1 tvg-id="mir-premium" tvg-name="Мир Premium" tvg-language="Russian" tvg-logo="" group-title="Entertainment",Мир Premium
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+
+#EXTINF:0 tvg-name="СТС", СТС
+http://145.239.4.98:8080/CTCM/mono.m3u8?token=test
+
+#EXTINF:-1,ТНТ HD
+http://50.7.212.18/TNTHD/video.m3u8?token=test
+
+#EXTINF:-1,Nickelodeon HD
+http://178.217.72.66/225.201.2.35/tracks-v1a1/mono.m3u8
+
+#EN Free
+#EXTINF:-1,National Geographic Wild HD
+https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+
+#EXTINF:-1,HD Fashion and Lifestyle
+http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
