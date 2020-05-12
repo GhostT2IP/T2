@@ -12,8 +12,8 @@ http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
 
 #03 1+1
 #EXTINF:-1,1+1
-http://39dw.only4.tv/5582/index.m3u8?token=5UDaZLkOWo
-http://188.35.9.26:1050/udp/238.0.1.1:69000
+http://54.36.109.228/10601/index.m3u8
+#http://188.35.9.26:1050/udp/238.0.1.1:69000
 #http://185.189.184.8:8888 - Bad
 
 #04 НТН
@@ -34,6 +34,9 @@ http://193.33.39.107:8088/indigo/index.m3u8
 
 #10 СТБ
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ
+http://51.15.176.84/hls/ua-stb-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ HD
 http://39dw.only4.tv/5604/index.m3u8?token=5UDaZLkOWo
 
 #00 КРТ
@@ -98,11 +101,15 @@ http://212.26.146.148/hls/otv.m3u8
 
 #T2 RU Free
 
-#EXTINF:-1,Первый канал HD
-http://nsk9.peers.tv/streaming/1kanal_hd/16/h1080/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",Россия 1 HD
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",RU TV HD
-https://rutv.gcdn.co/streams/1410_1272/720n/index.m3u8
+https://rutv.gcdn.co/streams/1410_1272/480n/index.m3u8
+#https://rutv.gcdn.co/streams/1410_1272/720n/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="Movies",Рен ТВ HD
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Russian" tvg-logo="" group-title="",Кино UHD
 http://188.35.9.26:16050/udp/238.0.16.1:69000
