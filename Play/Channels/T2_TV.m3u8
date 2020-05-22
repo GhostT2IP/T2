@@ -38,7 +38,6 @@ http://91.234.24.5:8080/stb/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ HD
 http://188.35.9.11:2002/index.m3u8
-//http://39dw.only4.tv/5604/index.m3u8?token=5UDaZLkOWo
 
 #00 КРТ
 #EXTINF:-1,КРТ
