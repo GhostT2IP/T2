@@ -34,10 +34,11 @@ http://193.33.39.107:8088/indigo/index.m3u8
 
 #10 СТБ
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ
-http://51.15.176.84/hls/ua-stb-tv/index.m3u8
+http://91.234.24.5:8080/stb/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ HD
-http://39dw.only4.tv/5604/index.m3u8?token=5UDaZLkOWo
+http://188.35.9.11:2002/index.m3u8
+//http://39dw.only4.tv/5604/index.m3u8?token=5UDaZLkOWo
 
 #00 КРТ
 #EXTINF:-1,КРТ
@@ -77,6 +78,9 @@ http://api.tv.ipnet.ua/api/v1/manifest/2007567821.m3u8
 
 #EXTINF:-1,KPT
 http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
+
+#EXTINF:-1,ТЕТ HD
+http://91.234.24.5:8080/tet_hd/mono.m3u8
 
 #Днепр
 #EXTINF:-1 tvg-id="11kanal" tvg-name="11 канал Днепр" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/R3MO4vb.png" group-title="",11 канал (Днепр)
