@@ -2,11 +2,13 @@
 
 #T2 UA Free
 
+#_____________01______________
+
 #01 Интер
 #EXTINF:-1 tvg-id="inter-ua" tvg-name="Iнтер" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/0n7Bk5s.png" group-title="",Iнтер
 http://109.68.41.148:1935/live/inter_3/playlist.m3u8
 
-#02 Украина
+#02 ТРК Украина
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="",UA TV HD
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
 
@@ -24,48 +26,89 @@ http://109.68.41.148:1935/live/ntn_2/playlist.m3u8
 #EXTINF:-1 tvg-id="k1-ua" tvg-name="К1" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/zkGPS5w.jpg" group-title="",K1
 http://109.68.40.67:80/life/k1_3/index.m3u8
 
-#08 ZOOM
+#06 UA:Первый
+#EXTINF:-1,UA:Первый
+http://95.67.77.131/hls/uapershiy_ua_hi/index.m3u8
+#http://api.tv.ipnet.ua/api/v1/manifest/871803891.m3u8?codec=mpeg4
+
+#07 ICTV
+#EXTINF:-1,ICTV
+http://79.142.197.7:8888/ICTV/mono.m3u8
+#http://188.35.9.26:2051/udp/238.0.2.1:69000
+
+#09 Энтер-фильм
+#EXTINF:-1,Энтер-фильм
+http://78.129.228.178/iptv/C2Z32RF22ZTV53/1000/index.m3u8
+
+#09 ZOOM
 #EXTINF:-1,ZOOM
 http://78.129.228.178/iptv/C2Z32RF22ZTV53/1000/index.m3u8
 
-#09 Индиго
+#_____________02______________
+
+#10 Индиго
 #EXTINF:-1,Индиго
 http://193.33.39.107:8088/indigo/index.m3u8
 
-#10 СТБ
+#11 СТБ
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ
 http://91.234.24.5:8080/stb/mono.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Украинское ТВ",СТБ HD
 http://188.35.9.11:2002/index.m3u8
+
+#12 ТЕТ
+#EXTINF:-1,ТЕТ
+http://91.234.24.5:8080/tet_hd/mono.m3u8
+
+#13 K2
+##EXTINF:-1,K2
+#http://91.234.24.5:8080/tet_hd/mono.m3u8
+
+#14 Новый канал
+#EXTINF:-1,Новый канал
+http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
+
+#15 М1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Music",М1
+https://flavors-proxy.m1.tv/flavors/1/720/stream.m3u8
+#15 М2
+#EXTINF:-1,М2
+http://live.m2.tv/hls3/stream.m3u8
+
+#16 5 канал
+
+#17 Мега
+#EXTINF:-1,Мега
+http://78.129.228.178/iptv/C2Z32RF22ZTV53/929/index.m3u8
+#http://185.189.184.7:8888/Mega/index.m3u8?token=test
+
+#18 Пиксель
+
+#19 ХSPORT
+
+#20 NLO TV
+#EXTINF:-1,NLO TV
+http://stream.iptvesun.com:25461/W9hUTsEjsB/AUbOrTbCDE/57309
 
 #00 КРТ
 #EXTINF:-1,КРТ
 http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
 
-#0 М1
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="Music",М1
-https://flavors-proxy.m1.tv//flavors/1/1080/stream.m3u8
 
-#0 М2
-#EXTINF:-1,М2
-http://live.m2.tv/hls3/stream.m3u8
 
-#0 ICTV
-#EXTINF:-1,ICTV
-http://188.35.9.26:2051/udp/238.0.2.1:69000
+
+
 
 #0 ENTER-ФИЛЬМ
 #EXTINF:0 group-title="Movies",ENTER-ФИЛЬМ
 http://195.138.81.101:8081/hls_sec/239.1.49.72-.m3u8
 
-#EXTINF:-1,Мега
-http://78.129.228.178/iptv/C2Z32RF22ZTV53/929/index.m3u8
-#http://185.189.184.7:8888/Mega/index.m3u8?token=test
 
 
+#0 2+2
 #EXTINF:-1,2+2
 http://188.35.9.11:2030/udp/025t
+#http://188.35.9.11:2030/index.m3u8
 
 #29 112 Украина [FHD]
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Ukrainian" tvg-logo="" group-title="",112 Украина [FHD]
@@ -78,8 +121,6 @@ http://api.tv.ipnet.ua/api/v1/manifest/2007567821.m3u8
 #EXTINF:-1,KPT
 http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
 
-#EXTINF:-1,ТЕТ HD
-http://91.234.24.5:8080/tet_hd/mono.m3u8
 
 #Днепр
 #EXTINF:-1 tvg-id="11kanal" tvg-name="11 канал Днепр" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/R3MO4vb.png" group-title="",11 канал (Днепр)
